@@ -17,5 +17,5 @@ if [ -n "$changes" ]; then
     git push
     echo "Update to date"
 else
-    echo "No need to update"
+    echo "Already up to date"
 fi
